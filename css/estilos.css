@@ -8,9 +8,9 @@ body {
   --bg: #fafafa;
   --font: "Archivo", sans-serif;
   --font-display: "Archivo Narrow", sans-serif;
-  --hotpink: #e94057;
-  --orange: #f27121;
-  --gradient: linear-gradient(35deg, var(--orange), var(--hotpink));
+  --greens: #57e940;
+  --blues: #21f2f2;
+  --gradient: linear-gradient(35deg, var(--blues), var(--greens));
 }
 
 *{
@@ -81,7 +81,7 @@ body {
 
 .cabecera-num {
   font-family: var(--font-display);
-  color: var(--hotpink);
+  color: var(--greens);
   font-weight: 400;
   font-size: 3.5rem;
   line-height: 0.9;
@@ -232,7 +232,7 @@ main {
 }
 
 .modal h2 {
-  color: var(--orange);
+  color: var(--blues);
   font-family: var(--font-display);
   margin: 0;
 }
@@ -267,7 +267,7 @@ button:focus {
 }
 
 .modal .reiniciar {
-  color: var(--hotpink);
+  color: var(--greens);
   background: transparent;
   border: 0;
   text-transform: capitalize;
@@ -296,7 +296,7 @@ button:focus {
   line-height: .68rem;
   display: flex;
   justify-content: center;
-  background: var(--hotpink);
+  background: var(--greens);
 }
 
 .control-oculto{
@@ -304,7 +304,7 @@ button:focus {
 }
 
 .selecciona-nivel{
-  background-color: var(--hotpink);
+  background-color: var(--greens);
   position: fixed;
   width: 250px;
   right: 0;
